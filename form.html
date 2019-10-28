@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+
+    <title>TITO ANIMALS</title>
+
+</head>
+
+<header>
+
+    <div class="boxOne">
+        <a href="index.html"><h1 class="tittle">TITOAnimals</h1></a>
+    </div>
+
+</header>
+
+<body>
+
+<div class="grid-container">
+
+    <div class="grid-menu">
+        <a class="titlebody">Menu</a><br>
+        <a href="view.html">View animals</a><br>
+        <a href="form.html">Upload a profile</a><br>
+        <a href="index.html">Go to start</a>
+
+    </div>
+
+    <div class="grid-body">
+        <a class="titlebody">Upload a new profile</a>
+        <div class="form">
+            <form id="form" action="upload.php" method="POST">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="name" placeholder="Insert name of animal..">
+
+                <label for="lkind">Kind</label>
+                <input type="text" id="lkind" name="kind" placeholder="Insert Kind">
+
+                <label for="date">Entry date</label>
+                <input type="text" id="date" name="kind" placeholder="Insert date entry of animal ">
+
+                <label for="age">Entry age</label>
+                <input type="text" id="age" name="kind" placeholder="Insert age of animal ">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+<script src="save.js"></script>
+</div>
+
+</body>
+
+</html>

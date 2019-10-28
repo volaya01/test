@@ -1,0 +1,119 @@
+@font-face {  font-family:'Luckiest Guy', cursive;  }
+@font-face {  font-family:'Big Shoulders Text', cursive;}
+
+body{ background-color: #F26D78; }
+
+a{ font-family: 'Big Shoulders Text';font-size: 62.5%;}
+
+img{ border-radius: 10%;width: 25%;}
+
+.tittle{
+    font-family: 'Luckiest Guy';
+    color: #F22233;
+    letter-spacing: 0.2em;
+    width: 16%;
+    -webkit-text-stroke: 2px black;
+    padding-left: 0.5em;
+}
+
+.titlebody{
+    font-family: 'Big Shoulders Text', cursive;
+    color: #F20505;
+    font-size: 40px;
+}
+
+.text{
+    font-family: 'Big Shoulders Text';
+    font-size: 62.5%;
+}
+
+.boxOne{
+    background-image: url("images/animals.png");
+    background-size: contain;
+    width: 98%;
+    padding: 0.5%;
+    border: 0.3em solid #1AD9C6;
+    margin: 0.3em 0.6em 1em 0.13em;
+}
+
+.grid-body {
+    grid-column: 2/4;
+    grid-row: 1/6;
+}
+.grid-menu {
+    grid-column: 1;
+    grid-row: 1/6;
+}
+
+.grid-container{
+    display: grid;
+    grid-auto-rows: minmax(100px, 100%);
+    grid-gap: 0.5em;
+    background-color: #1AD9C6;
+    padding: 0.5em;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 98%;
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 3em;
+}
+
+.cont{
+    margin: 1rem;
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+
+.tit{
+    font-family: 'Big Shoulders Text';
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(120deg, #fbc2eb 0%, #F26D78 100%);
+    margin: 0 0 2rem 0;
+    font-size: 2rem;
+    color: white;
+}
+
+a.desc{
+    display: block;
+}
+
+input[type=text], select {
+    font-family: 'Big Shoulders Text', cursive;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #1AD9C6;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #F20505;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    font-family: 'Big Shoulders Text', cursive;
+    background-color: #F20505;
+}
+
+.form{
+    padding: 20px;
+    width: 50%;
+margin-left: 25%;
+}
+label{
+    font-family: 'Big Shoulders Text', cursive;
+    color:#F26D78 ;
+}
